@@ -1,0 +1,25 @@
+{
+  "name": "service_students_client",
+  "version": "1.0.0",
+  "description": "Client for API students",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usevilla-fis-2021-g4/servicio-estudiantes-cliente.git"
+  },
+  "author": "Bouchaib El asri y Juan José",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
