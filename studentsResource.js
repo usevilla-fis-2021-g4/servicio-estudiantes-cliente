@@ -11,9 +11,10 @@ class StudentsResource
 
     static requestHeaders()
     {
-        const studentsKey = (process.env.STUDENTS_APIKEY || "87625lk76-52dc-6hd5-ao8f-425c6yda7747e");
+       
+        const studentsToken = (process.env.STUDENTS_TOKEN || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjFkNGI4NzRmNDQ5ZDVkMjEyZjM4NmY4IiwiZW1haWwiOiJ1bmRlendlbGZpQGdtYWlsLmNvbSIsImlhdCI6MTY0MTMzMDgyOCwiZXhwIjoxNjQxMzM0NDI4fQ.YZ23FGj1hx665XRTXfXeOhyKMGyFkr0fiA22xIkdU_k");
         return {
-            apikey: studentsKey
+            token: studentsToken
         };
     }
 
